@@ -1,0 +1,123 @@
+spec_version: 1
+name: household_basket_env
+version: 0.1.0
+description: >
+  HouseholdBasketEnv: multi-stakeholder constraint-satisfaction OpenEnv environment
+  for personalized grocery planning. The agent composes a basket from a 492-product
+  catalog of Indian packaged foods (FSSAI-derived nutrition) such that it
+  simultaneously satisfies the conflicting nutritional caps and minimum-intake
+  floors of multiple household members under a hard INR budget. Includes 3
+  difficulty tiers (single adult / dyad / triad with adversarial set), a
+  deterministic seed verifier, smooth dense rewards, and a 10-policy reward-hack
+  test suite. Theme #3.2 (Personalized Tasks).
+type: space
+runtime: fastapi
+app: server.app:app
+port: 8000
+
+client:
+  class_name: HouseholdBasketEnv
+  module: household_basket_env.client
+
+action:
+  class_name: BasketAction
+  module: household_basket_env.models
+
+observation:
+  class_name: BasketObservation
+  module: household_basket_env.models
+
+default_image: household-basket-env:latest
+
+tags:
+  - openenv
+  - personalized-tasks
+  - constraint-satisfaction
+  - rl-environment
+  - india
+  - fssai
+  - nutrition
+  - hackathon
+
+metadata:
+  domain: health
+  geography: india
+  regulatory_standard: FSSAI-2020
+  research_applications:
+    - LLM personalization evaluation
+    - multi-stakeholder constraint satisfaction
+    - RL post-training with coupled constraints
+  hackathon_theme: "#3.2 Personalized Tasks"
+
+api:
+  base_url: /
+  endpoints:
+    reset:
+      method: POST
+      path: /reset
+      request_model: ResetRequest
+      response_model: ResetResponse
+    step:
+      method: POST
+      path: /step
+      request_model: BasketAction
+      response_model: StepResponse
+    state:
+      method: GET
+      path: /state
+      response_model: BasketState
+    tasks:
+      method: GET
+      path: /tasks
+      response_model: TaskListResponse
+
+tasks:
+  - id: household_basket_task1
+    name: Single Healthy Adult Basket
+    difficulty: easy
+    description: >
+      1 healthy adult, 3 valid steps, 20 curated products, ~500 INR.
+      Held-out easy eval used as a regression check.
+    max_steps: 3
+    score_range: [-3.0, 2.0]
+    reset_params:
+      task_id: 1
+
+  - id: household_basket_task2
+    name: Healthy + Diabetic Basket
+    difficulty: medium
+    description: >
+      2 members (healthy adult + diabetic adult), 5 valid steps, 50 products,
+      ~1000 INR. Primary training tier (70% of training mix).
+    max_steps: 5
+    score_range: [-4.0, 3.0]
+    reset_params:
+      task_id: 2
+
+  - id: household_basket_task3
+    name: Diabetic + Hypertensive + Child Basket (adversarial)
+    difficulty: hard
+    description: >
+      3 members (diabetic adult + hypertensive senior + growing child), 7 valid
+      steps, 492 products including 32 adversarial, ~1500 INR. Headline tier.
+      Held-out seeds form the eval number reported in the README.
+    max_steps: 7
+    score_range: [-5.0, 4.0]
+    reset_params:
+      task_id: 3
+
+grading:
+  description: >
+    Reward = sum of per-step dense components (R_format, R_threshold, R_budget,
+    R_meal_type_coverage) + terminal R_terminal in {-0.5, +0.3, +1.0} from
+    basket_grader, minus penalties (P_parse, P_duplicate, P_unknown_member).
+  components:
+    - r_format
+    - r_threshold
+    - r_budget
+    - r_meal_type_coverage
+    - p_duplicate
+    - p_unknown_member
+    - p_parse
+    - p_over_budget
+    - terminal

@@ -1,0 +1,54 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the BSD-style license found in the
+# LICENSE file in the root directory of this source tree.
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openenv-household_basket_env"
+version = "0.1.0"
+description = "HouseholdBasketEnv — multi-stakeholder constraint-satisfaction OpenEnv environment for personalized grocery planning"
+requires-python = ">=3.10"
+dependencies = [
+    "openenv-core[core]>=0.2.1",
+    "pydantic>=2.0.0",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.24.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.0.0",
+    "httpx>=0.27.0",
+]
+training = [
+    # Training-only dependencies — do NOT ship in the Docker image used by the
+    # HF Space. The training notebook installs these on Colab.
+    "unsloth>=2024.10",
+    "trl>=0.13.0",
+    "transformers>=4.46.0",
+    "datasets>=2.20.0",
+    "matplotlib>=3.8.0",
+    "pandas>=2.2.0",
+]
+
+[project.scripts]
+server = "household_basket_env.server.app:main"
+seed-verifier = "household_basket_env.server.seed_verifier:main"
+
+[tool.setuptools]
+include-package-data = true
+packages = ["household_basket_env", "household_basket_env.server"]
+package-dir = { "household_basket_env" = ".", "household_basket_env.server" = "server" }
+
+[tool.setuptools.package-data]
+household_basket_env = ["seeds/*.json", "data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"

@@ -1,0 +1,3420 @@
+{
+  "task_id": 2,
+  "n_verified": 100,
+  "n_inspected": 100,
+  "verified_seeds": [
+    9770,
+    3631,
+    7059,
+    421,
+    9878,
+    7213,
+    7847,
+    9353,
+    6686,
+    5617,
+    4179,
+    5546,
+    4963,
+    9111,
+    4775,
+    2151,
+    7050,
+    270,
+    4547,
+    7812,
+    3723,
+    7022,
+    2403,
+    5846,
+    4004,
+    7368,
+    308,
+    8081,
+    507,
+    3072,
+    2276,
+    8585,
+    7811,
+    3176,
+    5732,
+    9192,
+    2673,
+    6926,
+    7434,
+    9953,
+    4669,
+    1675,
+    31,
+    4583,
+    477,
+    3044,
+    5464,
+    4538,
+    899,
+    4944,
+    2380,
+    4550,
+    1742,
+    4092,
+    3090,
+    1326,
+    2595,
+    1728,
+    2189,
+    7860,
+    7592,
+    9452,
+    4687,
+    9348,
+    4129,
+    8044,
+    6666,
+    1583,
+    4514,
+    2373,
+    3645,
+    6074,
+    8199,
+    369,
+    7360,
+    9687,
+    7760,
+    6258,
+    1416,
+    8936,
+    4302,
+    2631,
+    5239,
+    9651,
+    4019,
+    1661,
+    3804,
+    8560,
+    5311,
+    4452,
+    1194,
+    2385,
+    7937,
+    8859,
+    7976,
+    6488,
+    8748,
+    1148,
+    8446,
+    8362
+  ],
+  "training_seeds": [
+    5846,
+    7976,
+    2276,
+    369,
+    7368,
+    4538,
+    8585,
+    3044,
+    7812,
+    8560,
+    31,
+    4514,
+    6488,
+    7022,
+    9353,
+    1583,
+    5464,
+    5239,
+    5546,
+    7847,
+    1675,
+    3804,
+    5311,
+    3645,
+    4547,
+    1416,
+    6074,
+    7860,
+    4583,
+    9452,
+    2403,
+    4775,
+    9192,
+    8859,
+    2595,
+    507,
+    8446,
+    3090,
+    8081,
+    4452,
+    3631,
+    2373,
+    7360,
+    7059,
+    1661,
+    4669,
+    9111,
+    9687,
+    3072,
+    5732,
+    7937,
+    9770,
+    6258,
+    1326,
+    4944,
+    421,
+    4687,
+    4963,
+    308,
+    899,
+    9651,
+    7592,
+    1728,
+    9348,
+    2151,
+    7811,
+    6686,
+    1148,
+    8199,
+    270
+  ],
+  "held_out_seeds": [
+    4092,
+    6926,
+    8044,
+    4550,
+    9878,
+    3723,
+    7434,
+    5617,
+    4179,
+    2631,
+    477,
+    2673,
+    4019,
+    2380,
+    8748,
+    1194,
+    6666,
+    7050,
+    4302,
+    3176,
+    4004,
+    1742,
+    2385,
+    8362,
+    4129,
+    7213,
+    2189,
+    7760,
+    9953,
+    8936
+  ],
+  "theoretical_max": 5.25,
+  "tier": {
+    "n_members": 2,
+    "max_steps": 5,
+    "catalog_size": 50,
+    "base_budget_inr": 1000.0
+  },
+  "details": [
+    {
+      "seed": 9770,
+      "task_id": 2,
+      "total_dense_reward": 3.132,
+      "terminal_reward": 0.3,
+      "total_reward": 3.432,
+      "theoretical_max": 5.25,
+      "ratio": 0.6537,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0387",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0272",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0203",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0021",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0352",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 3631,
+      "task_id": 2,
+      "total_dense_reward": 3.1519,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4519,
+      "theoretical_max": 5.25,
+      "ratio": 0.6575,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0208",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0399",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0384",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0104",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0350",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7059,
+      "task_id": 2,
+      "total_dense_reward": 3.2269,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5269,
+      "theoretical_max": 5.25,
+      "ratio": 0.6718,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0386",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0008",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0234",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0003",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 421,
+      "task_id": 2,
+      "total_dense_reward": 3.1916,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4916,
+      "theoretical_max": 5.25,
+      "ratio": 0.6651,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0149",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0402",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0003",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0367",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0235",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 9878,
+      "task_id": 2,
+      "total_dense_reward": 3.2555,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5555,
+      "theoretical_max": 5.25,
+      "ratio": 0.6772,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0166",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0199",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0189",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0369",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7213,
+      "task_id": 2,
+      "total_dense_reward": 3.2647,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5647,
+      "theoretical_max": 5.25,
+      "ratio": 0.679,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0371",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0116",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0403",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_006",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0125",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7847,
+      "task_id": 2,
+      "total_dense_reward": 3.2321,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5321,
+      "theoretical_max": 5.25,
+      "ratio": 0.6728,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0105",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0255",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_001",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0134",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0141",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 9353,
+      "task_id": 2,
+      "total_dense_reward": 3.2209,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5209,
+      "theoretical_max": 5.25,
+      "ratio": 0.6707,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0087",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0157",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0003",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0104",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0229",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 6686,
+      "task_id": 2,
+      "total_dense_reward": 3.2641,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5641,
+      "theoretical_max": 5.25,
+      "ratio": 0.6789,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0240",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_006",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_001",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0271",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_005",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 5617,
+      "task_id": 2,
+      "total_dense_reward": 3.2392,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5392,
+      "theoretical_max": 5.25,
+      "ratio": 0.6741,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0255",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0154",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0296",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_040",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4179,
+      "task_id": 2,
+      "total_dense_reward": 3.1609,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4609,
+      "theoretical_max": 5.25,
+      "ratio": 0.6592,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0186",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0046",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0250",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0258",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0327",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 5546,
+      "task_id": 2,
+      "total_dense_reward": 3.1921,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4921,
+      "theoretical_max": 5.25,
+      "ratio": 0.6652,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0149",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0399",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0271",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0097",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0235",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4963,
+      "task_id": 2,
+      "total_dense_reward": 3.1509,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4509,
+      "theoretical_max": 5.25,
+      "ratio": 0.6573,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0105",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0078",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0192",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0201",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0380",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 9111,
+      "task_id": 2,
+      "total_dense_reward": 3.2539,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5539,
+      "theoretical_max": 5.25,
+      "ratio": 0.6769,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0240",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0068",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0287",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0258",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0289",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4775,
+      "task_id": 2,
+      "total_dense_reward": 3.2136,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5136,
+      "theoretical_max": 5.25,
+      "ratio": 0.6693,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_044",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0209",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0372",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0229",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 2151,
+      "task_id": 2,
+      "total_dense_reward": 3.1633,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4633,
+      "theoretical_max": 5.25,
+      "ratio": 0.6597,
+      "verified": true,
+      "basket": [
+        [
+          "IND_009",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_006",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0110",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0267",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_012",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7050,
+      "task_id": 2,
+      "total_dense_reward": 3.222,
+      "terminal_reward": 0.3,
+      "total_reward": 3.522,
+      "theoretical_max": 5.25,
+      "ratio": 0.6709,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0371",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0263",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0198",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0378",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0028",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 270,
+      "task_id": 2,
+      "total_dense_reward": 3.1392,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4392,
+      "theoretical_max": 5.25,
+      "ratio": 0.6551,
+      "verified": true,
+      "basket": [
+        [
+          "IND_014",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0399",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0378",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_005",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0141",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4547,
+      "task_id": 2,
+      "total_dense_reward": 3.2531,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5531,
+      "theoretical_max": 5.25,
+      "ratio": 0.6768,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0166",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0062",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0271",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0369",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7812,
+      "task_id": 2,
+      "total_dense_reward": 3.1863,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4863,
+      "theoretical_max": 5.25,
+      "ratio": 0.664,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0218",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0127",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0200",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_041",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0235",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 3723,
+      "task_id": 2,
+      "total_dense_reward": 3.1513,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4513,
+      "theoretical_max": 5.25,
+      "ratio": 0.6574,
+      "verified": true,
+      "basket": [
+        [
+          "IND_009",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0394",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0035",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0155",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0151",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7022,
+      "task_id": 2,
+      "total_dense_reward": 3.2008,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5008,
+      "theoretical_max": 5.25,
+      "ratio": 0.6668,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0178",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0263",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0287",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0201",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0150",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 2403,
+      "task_id": 2,
+      "total_dense_reward": 3.126,
+      "terminal_reward": 0.3,
+      "total_reward": 3.426,
+      "theoretical_max": 5.25,
+      "ratio": 0.6526,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0362",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0065",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0032",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 5846,
+      "task_id": 2,
+      "total_dense_reward": 3.1846,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4846,
+      "theoretical_max": 5.25,
+      "ratio": 0.6637,
+      "verified": true,
+      "basket": [
+        [
+          "IND_032",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_002",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0104",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0258",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_008",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4004,
+      "task_id": 2,
+      "total_dense_reward": 3.1994,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4994,
+      "theoretical_max": 5.25,
+      "ratio": 0.6665,
+      "verified": true,
+      "basket": [
+        [
+          "IND_009",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0394",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0011",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0391",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_008",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7368,
+      "task_id": 2,
+      "total_dense_reward": 3.2549,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5549,
+      "theoretical_max": 5.25,
+      "ratio": 0.6771,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0255",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0198",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0216",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_040",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 308,
+      "task_id": 2,
+      "total_dense_reward": 3.235,
+      "terminal_reward": 0.3,
+      "total_reward": 3.535,
+      "theoretical_max": 5.25,
+      "ratio": 0.6733,
+      "verified": true,
+      "basket": [
+        [
+          "IND_009",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0017",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0304",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0235",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 8081,
+      "task_id": 2,
+      "total_dense_reward": 3.1624,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4624,
+      "theoretical_max": 5.25,
+      "ratio": 0.6595,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0387",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0399",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0110",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0097",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0229",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 507,
+      "task_id": 2,
+      "total_dense_reward": 3.1355,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4355,
+      "theoretical_max": 5.25,
+      "ratio": 0.6544,
+      "verified": true,
+      "basket": [
+        [
+          "IND_032",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0394",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0372",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0278",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0338",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 3072,
+      "task_id": 2,
+      "total_dense_reward": 3.1097,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4097,
+      "theoretical_max": 5.25,
+      "ratio": 0.6495,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0186",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0255",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0340",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0235",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 2276,
+      "task_id": 2,
+      "total_dense_reward": 3.1375,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4375,
+      "theoretical_max": 5.25,
+      "ratio": 0.6548,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0342",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0283",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0104",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0378",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0083",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 8585,
+      "task_id": 2,
+      "total_dense_reward": 3.2396,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5396,
+      "theoretical_max": 5.25,
+      "ratio": 0.6742,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0099",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0166",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0287",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_041",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_005",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7811,
+      "task_id": 2,
+      "total_dense_reward": 3.2205,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5205,
+      "theoretical_max": 5.25,
+      "ratio": 0.6706,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0386",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0008",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0234",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0110",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_008",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 3176,
+      "task_id": 2,
+      "total_dense_reward": 3.2057,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5057,
+      "theoretical_max": 5.25,
+      "ratio": 0.6678,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0261",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0046",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0246",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0317",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0097",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 5732,
+      "task_id": 2,
+      "total_dense_reward": 3.238,
+      "terminal_reward": 0.3,
+      "total_reward": 3.538,
+      "theoretical_max": 5.25,
+      "ratio": 0.6739,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0208",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0255",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0287",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0340",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0061",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 9192,
+      "task_id": 2,
+      "total_dense_reward": 3.246,
+      "terminal_reward": 0.3,
+      "total_reward": 3.546,
+      "theoretical_max": 5.25,
+      "ratio": 0.6754,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0386",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0116",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0015",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0068",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0150",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 2673,
+      "task_id": 2,
+      "total_dense_reward": 3.2243,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5243,
+      "theoretical_max": 5.25,
+      "ratio": 0.6713,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0386",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0394",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0254",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_041",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0211",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 6926,
+      "task_id": 2,
+      "total_dense_reward": 3.2337,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5337,
+      "theoretical_max": 5.25,
+      "ratio": 0.6731,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0283",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0122",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0104",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0238",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7434,
+      "task_id": 2,
+      "total_dense_reward": 3.053,
+      "terminal_reward": 0.3,
+      "total_reward": 3.353,
+      "theoretical_max": 5.25,
+      "ratio": 0.6387,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0178",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0068",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0334",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0121",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0065",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 9953,
+      "task_id": 2,
+      "total_dense_reward": 3.1677,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4677,
+      "theoretical_max": 5.25,
+      "ratio": 0.6605,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0087",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0283",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0378",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0317",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0235",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4669,
+      "task_id": 2,
+      "total_dense_reward": 3.1999,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4999,
+      "theoretical_max": 5.25,
+      "ratio": 0.6667,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0362",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0127",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0011",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0287",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_021",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 1675,
+      "task_id": 2,
+      "total_dense_reward": 3.2837,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5837,
+      "theoretical_max": 5.25,
+      "ratio": 0.6826,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0387",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0116",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0011",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0166",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0390",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 31,
+      "task_id": 2,
+      "total_dense_reward": 3.211,
+      "terminal_reward": 0.3,
+      "total_reward": 3.511,
+      "theoretical_max": 5.25,
+      "ratio": 0.6688,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0362",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_044",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0017",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0110",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_021",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4583,
+      "task_id": 2,
+      "total_dense_reward": 3.2423,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5423,
+      "theoretical_max": 5.25,
+      "ratio": 0.6747,
+      "verified": true,
+      "basket": [
+        [
+          "IND_032",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0310",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0017",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0104",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0235",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 477,
+      "task_id": 2,
+      "total_dense_reward": 3.2591,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5591,
+      "theoretical_max": 5.25,
+      "ratio": 0.6779,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0371",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0116",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0215",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_039",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0320",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 3044,
+      "task_id": 2,
+      "total_dense_reward": 3.2685,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5685,
+      "theoretical_max": 5.25,
+      "ratio": 0.6797,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0371",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0392",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0186",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0271",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0336",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 5464,
+      "task_id": 2,
+      "total_dense_reward": 3.2058,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5058,
+      "theoretical_max": 5.25,
+      "ratio": 0.6678,
+      "verified": true,
+      "basket": [
+        [
+          "IND_014",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0116",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0384",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_029",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0004",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4538,
+      "task_id": 2,
+      "total_dense_reward": 3.2455,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5455,
+      "theoretical_max": 5.25,
+      "ratio": 0.6753,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0386",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0254",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0296",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0408",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 899,
+      "task_id": 2,
+      "total_dense_reward": 3.1579,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4579,
+      "theoretical_max": 5.25,
+      "ratio": 0.6587,
+      "verified": true,
+      "basket": [
+        [
+          "IND_032",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0295",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0384",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0104",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0123",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4944,
+      "task_id": 2,
+      "total_dense_reward": 3.1966,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4966,
+      "theoretical_max": 5.25,
+      "ratio": 0.666,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0105",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0392",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0371",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0287",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0269",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 2380,
+      "task_id": 2,
+      "total_dense_reward": 3.1445,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4445,
+      "theoretical_max": 5.25,
+      "ratio": 0.6561,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0404",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0102",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0145",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0097",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0074",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4550,
+      "task_id": 2,
+      "total_dense_reward": 3.0988,
+      "terminal_reward": 0.3,
+      "total_reward": 3.3988,
+      "theoretical_max": 5.25,
+      "ratio": 0.6474,
+      "verified": true,
+      "basket": [
+        [
+          "IND_009",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0171",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0011",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0380",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0235",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 1742,
+      "task_id": 2,
+      "total_dense_reward": 3.2578,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5578,
+      "theoretical_max": 5.25,
+      "ratio": 0.6777,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0105",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0116",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_001",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0068",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_005",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4092,
+      "task_id": 2,
+      "total_dense_reward": 3.0972,
+      "terminal_reward": 0.3,
+      "total_reward": 3.3972,
+      "theoretical_max": 5.25,
+      "ratio": 0.6471,
+      "verified": true,
+      "basket": [
+        [
+          "IND_032",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0310",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0203",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0021",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0075",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 3090,
+      "task_id": 2,
+      "total_dense_reward": 3.2197,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5197,
+      "theoretical_max": 5.25,
+      "ratio": 0.6704,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0371",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0394",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0186",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0200",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0182",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 1326,
+      "task_id": 2,
+      "total_dense_reward": 3.261,
+      "terminal_reward": 0.3,
+      "total_reward": 3.561,
+      "theoretical_max": 5.25,
+      "ratio": 0.6783,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0132",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0255",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0200",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0249",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0235",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 2595,
+      "task_id": 2,
+      "total_dense_reward": 3.2306,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5306,
+      "theoretical_max": 5.25,
+      "ratio": 0.6725,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0200",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0062",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0128",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0349",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 1728,
+      "task_id": 2,
+      "total_dense_reward": 3.1296,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4296,
+      "theoretical_max": 5.25,
+      "ratio": 0.6533,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0132",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0295",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0384",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0372",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0075",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 2189,
+      "task_id": 2,
+      "total_dense_reward": 3.1426,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4426,
+      "theoretical_max": 5.25,
+      "ratio": 0.6557,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0362",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0394",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0317",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0005",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0229",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7860,
+      "task_id": 2,
+      "total_dense_reward": 3.1922,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4922,
+      "theoretical_max": 5.25,
+      "ratio": 0.6652,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0178",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_006",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0386",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0003",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0369",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7592,
+      "task_id": 2,
+      "total_dense_reward": 3.254,
+      "terminal_reward": 0.3,
+      "total_reward": 3.554,
+      "theoretical_max": 5.25,
+      "ratio": 0.6769,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0387",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0283",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0011",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_001",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0032",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 9452,
+      "task_id": 2,
+      "total_dense_reward": 3.2268,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5268,
+      "theoretical_max": 5.25,
+      "ratio": 0.6718,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0087",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_006",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0371",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0367",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_046",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4687,
+      "task_id": 2,
+      "total_dense_reward": 3.2314,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5314,
+      "theoretical_max": 5.25,
+      "ratio": 0.6726,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0310",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0260",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0200",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0212",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 9348,
+      "task_id": 2,
+      "total_dense_reward": 3.17,
+      "terminal_reward": 0.3,
+      "total_reward": 3.47,
+      "theoretical_max": 5.25,
+      "ratio": 0.6609,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0220",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_006",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0203",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_041",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0265",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4129,
+      "task_id": 2,
+      "total_dense_reward": 3.1407,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4407,
+      "theoretical_max": 5.25,
+      "ratio": 0.6554,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0117",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0081",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0406",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 8044,
+      "task_id": 2,
+      "total_dense_reward": 3.1784,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4784,
+      "theoretical_max": 5.25,
+      "ratio": 0.6626,
+      "verified": true,
+      "basket": [
+        [
+          "IND_026",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0008",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0371",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0367",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0349",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 6666,
+      "task_id": 2,
+      "total_dense_reward": 3.195,
+      "terminal_reward": 0.3,
+      "total_reward": 3.495,
+      "theoretical_max": 5.25,
+      "ratio": 0.6657,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0105",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0392",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0371",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0201",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0320",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 1583,
+      "task_id": 2,
+      "total_dense_reward": 3.19,
+      "terminal_reward": 0.3,
+      "total_reward": 3.49,
+      "theoretical_max": 5.25,
+      "ratio": 0.6648,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0105",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0166",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0287",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0347",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0061",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4514,
+      "task_id": 2,
+      "total_dense_reward": 3.1147,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4147,
+      "theoretical_max": 5.25,
+      "ratio": 0.6504,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0264",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0295",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0333",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0367",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0390",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 2373,
+      "task_id": 2,
+      "total_dense_reward": 3.2491,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5491,
+      "theoretical_max": 5.25,
+      "ratio": 0.676,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0371",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0392",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0215",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0287",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0349",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 3645,
+      "task_id": 2,
+      "total_dense_reward": 3.2086,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5086,
+      "theoretical_max": 5.25,
+      "ratio": 0.6683,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0105",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0166",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0371",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0372",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0205",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 6074,
+      "task_id": 2,
+      "total_dense_reward": 3.2402,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5402,
+      "theoretical_max": 5.25,
+      "ratio": 0.6743,
+      "verified": true,
+      "basket": [
+        [
+          "IND_009",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_006",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_041",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0108",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0070",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 8199,
+      "task_id": 2,
+      "total_dense_reward": 3.2552,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5552,
+      "theoretical_max": 5.25,
+      "ratio": 0.6772,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0105",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0068",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0104",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0201",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0070",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 369,
+      "task_id": 2,
+      "total_dense_reward": 3.201,
+      "terminal_reward": 0.3,
+      "total_reward": 3.501,
+      "theoretical_max": 5.25,
+      "ratio": 0.6669,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0218",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_046",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0182",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7360,
+      "task_id": 2,
+      "total_dense_reward": 3.2044,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5044,
+      "theoretical_max": 5.25,
+      "ratio": 0.6675,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0178",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_006",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0384",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0367",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0180",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 9687,
+      "task_id": 2,
+      "total_dense_reward": 3.2217,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5217,
+      "theoretical_max": 5.25,
+      "ratio": 0.6708,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0208",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0116",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0155",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0392",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0141",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7760,
+      "task_id": 2,
+      "total_dense_reward": 3.271,
+      "terminal_reward": 0.3,
+      "total_reward": 3.571,
+      "theoretical_max": 5.25,
+      "ratio": 0.6802,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0068",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0264",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0372",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 6258,
+      "task_id": 2,
+      "total_dense_reward": 3.2614,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5614,
+      "theoretical_max": 5.25,
+      "ratio": 0.6784,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0386",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0255",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0147",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0249",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0327",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 1416,
+      "task_id": 2,
+      "total_dense_reward": 3.3018,
+      "terminal_reward": 0.3,
+      "total_reward": 3.6018,
+      "theoretical_max": 5.25,
+      "ratio": 0.6861,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0386",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0116",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0318",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0345",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0229",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 8936,
+      "task_id": 2,
+      "total_dense_reward": 3.2691,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5691,
+      "theoretical_max": 5.25,
+      "ratio": 0.6798,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0159",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0272",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0011",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0145",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0235",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4302,
+      "task_id": 2,
+      "total_dense_reward": 3.1684,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4684,
+      "theoretical_max": 5.25,
+      "ratio": 0.6607,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0387",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0371",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0138",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0235",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 2631,
+      "task_id": 2,
+      "total_dense_reward": 3.2548,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5548,
+      "theoretical_max": 5.25,
+      "ratio": 0.6771,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0355",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0046",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0011",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0145",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0327",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 5239,
+      "task_id": 2,
+      "total_dense_reward": 3.2717,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5717,
+      "theoretical_max": 5.25,
+      "ratio": 0.6803,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0386",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0166",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0186",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0145",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_046",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 9651,
+      "task_id": 2,
+      "total_dense_reward": 3.0795,
+      "terminal_reward": 0.3,
+      "total_reward": 3.3795,
+      "theoretical_max": 5.25,
+      "ratio": 0.6437,
+      "verified": true,
+      "basket": [
+        [
+          "IND_027",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0295",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0409",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0163",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0267",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4019,
+      "task_id": 2,
+      "total_dense_reward": 3.2608,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5608,
+      "theoretical_max": 5.25,
+      "ratio": 0.6782,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0392",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0234",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_001",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0156",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 1661,
+      "task_id": 2,
+      "total_dense_reward": 3.2597,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5597,
+      "theoretical_max": 5.25,
+      "ratio": 0.678,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0149",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0046",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_001",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0021",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0074",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 3804,
+      "task_id": 2,
+      "total_dense_reward": 3.1936,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4936,
+      "theoretical_max": 5.25,
+      "ratio": 0.6654,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0355",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0384",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0327",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0092",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 8560,
+      "task_id": 2,
+      "total_dense_reward": 3.1145,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4145,
+      "theoretical_max": 5.25,
+      "ratio": 0.6504,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0221",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0394",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0236",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0155",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0196",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 5311,
+      "task_id": 2,
+      "total_dense_reward": 3.1213,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4213,
+      "theoretical_max": 5.25,
+      "ratio": 0.6517,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0105",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0127",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0386",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0155",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_046",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4452,
+      "task_id": 2,
+      "total_dense_reward": 3.2163,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5163,
+      "theoretical_max": 5.25,
+      "ratio": 0.6698,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0387",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0078",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0011",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_001",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0032",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 1194,
+      "task_id": 2,
+      "total_dense_reward": 3.1196,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4196,
+      "theoretical_max": 5.25,
+      "ratio": 0.6514,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0087",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0402",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0035",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0192",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0349",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 2385,
+      "task_id": 2,
+      "total_dense_reward": 3.2746,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5746,
+      "theoretical_max": 5.25,
+      "ratio": 0.6809,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0105",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_006",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_001",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0017",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0229",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7937,
+      "task_id": 2,
+      "total_dense_reward": 3.1525,
+      "terminal_reward": 0.3,
+      "total_reward": 3.4525,
+      "theoretical_max": 5.25,
+      "ratio": 0.6576,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0122",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0283",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_041",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0201",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0070",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 8859,
+      "task_id": 2,
+      "total_dense_reward": 3.2227,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5227,
+      "theoretical_max": 5.25,
+      "ratio": 0.671,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0178",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0392",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0367",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0225",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0150",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7976,
+      "task_id": 2,
+      "total_dense_reward": 3.213,
+      "terminal_reward": 0.3,
+      "total_reward": 3.513,
+      "theoretical_max": 5.25,
+      "ratio": 0.6691,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0283",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0158",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0011",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0229",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 6488,
+      "task_id": 2,
+      "total_dense_reward": 3.2342,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5341,
+      "theoretical_max": 5.25,
+      "ratio": 0.6732,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0178",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_006",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0200",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0189",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0074",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 8748,
+      "task_id": 2,
+      "total_dense_reward": 3.2159,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5159,
+      "theoretical_max": 5.25,
+      "ratio": 0.6697,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0355",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0116",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0246",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0046",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0390",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 1148,
+      "task_id": 2,
+      "total_dense_reward": 3.2202,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5202,
+      "theoretical_max": 5.25,
+      "ratio": 0.6705,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0394",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0199",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0271",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0406",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 8446,
+      "task_id": 2,
+      "total_dense_reward": 3.2461,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5461,
+      "theoretical_max": 5.25,
+      "ratio": 0.6754,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0149",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0046",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0246",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0021",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_021",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 8362,
+      "task_id": 2,
+      "total_dense_reward": 3.2386,
+      "terminal_reward": 0.3,
+      "total_reward": 3.5386,
+      "theoretical_max": 5.25,
+      "ratio": 0.674,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0105",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0255",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_041",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0354",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0097",
+          "m0_adult_healthy"
+        ]
+      ]
+    }
+  ]
+}

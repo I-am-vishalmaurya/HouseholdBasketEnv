@@ -1,0 +1,1059 @@
+{
+  "task_id": 1,
+  "n_verified": 40,
+  "n_inspected": 51,
+  "verified_seeds": [
+    9770,
+    3631,
+    7059,
+    421,
+    9878,
+    7213,
+    7847,
+    9353,
+    6686,
+    4179,
+    5546,
+    9111,
+    4775,
+    7050,
+    270,
+    3723,
+    2403,
+    5846,
+    4004,
+    7368,
+    308,
+    8081,
+    507,
+    3072,
+    2276,
+    8585,
+    7811,
+    9192,
+    2673,
+    7434,
+    9953,
+    4669,
+    31,
+    4583,
+    477,
+    3044,
+    5464,
+    4538,
+    4944,
+    2380
+  ],
+  "training_seeds": [],
+  "held_out_seeds": [
+    3072,
+    7059,
+    9111,
+    3631,
+    4538,
+    31,
+    7213,
+    4179,
+    5846,
+    7434,
+    477,
+    308,
+    4944,
+    8081,
+    9192,
+    507,
+    5546,
+    4583,
+    4004,
+    3044,
+    2380,
+    270,
+    7811,
+    7368,
+    7050,
+    4775,
+    9770,
+    3723,
+    421,
+    7847,
+    8585,
+    2276,
+    9953,
+    2673,
+    4669,
+    9353,
+    2403,
+    9878,
+    5464,
+    6686
+  ],
+  "theoretical_max": 3.5500000000000007,
+  "tier": {
+    "n_members": 1,
+    "max_steps": 3,
+    "catalog_size": 20,
+    "base_budget_inr": 500.0
+  },
+  "details": [
+    {
+      "seed": 9770,
+      "task_id": 1,
+      "total_dense_reward": 1.8987,
+      "terminal_reward": 0.3,
+      "total_reward": 2.1987,
+      "theoretical_max": 3.55,
+      "ratio": 0.6194,
+      "verified": true,
+      "basket": [
+        [
+          "IND_026",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0271",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0336",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 3631,
+      "task_id": 1,
+      "total_dense_reward": 1.8312,
+      "terminal_reward": 0.3,
+      "total_reward": 2.1312,
+      "theoretical_max": 3.55,
+      "ratio": 0.6003,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0099",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0053",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0010",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7059,
+      "task_id": 1,
+      "total_dense_reward": 1.9386,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2386,
+      "theoretical_max": 3.55,
+      "ratio": 0.6306,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0404",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_001",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0061",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 421,
+      "task_id": 1,
+      "total_dense_reward": 1.9028,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2028,
+      "theoretical_max": 3.55,
+      "ratio": 0.6205,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0084",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0384",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0350",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 9878,
+      "task_id": 1,
+      "total_dense_reward": 1.948,
+      "terminal_reward": 0.3,
+      "total_reward": 2.248,
+      "theoretical_max": 3.55,
+      "ratio": 0.6332,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0386",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0215",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0229",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7213,
+      "task_id": 1,
+      "total_dense_reward": 1.879,
+      "terminal_reward": 0.3,
+      "total_reward": 2.179,
+      "theoretical_max": 3.55,
+      "ratio": 0.6138,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0362",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0110",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0197",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7847,
+      "task_id": 1,
+      "total_dense_reward": 1.9237,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2237,
+      "theoretical_max": 3.55,
+      "ratio": 0.6264,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0213",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_001",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0141",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 9353,
+      "task_id": 1,
+      "total_dense_reward": 1.9565,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2565,
+      "theoretical_max": 3.55,
+      "ratio": 0.6356,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0371",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0215",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0125",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 6686,
+      "task_id": 1,
+      "total_dense_reward": 1.9161,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2161,
+      "theoretical_max": 3.55,
+      "ratio": 0.6242,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0386",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0283",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0180",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4179,
+      "task_id": 1,
+      "total_dense_reward": 1.8304,
+      "terminal_reward": 0.3,
+      "total_reward": 2.1304,
+      "theoretical_max": 3.55,
+      "ratio": 0.6001,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0199",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0250",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0023",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 5546,
+      "task_id": 1,
+      "total_dense_reward": 1.9221,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2221,
+      "theoretical_max": 3.55,
+      "ratio": 0.6259,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0178",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0112",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0289",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 9111,
+      "task_id": 1,
+      "total_dense_reward": 1.9557,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2557,
+      "theoretical_max": 3.55,
+      "ratio": 0.6354,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_020",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0327",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4775,
+      "task_id": 1,
+      "total_dense_reward": 1.9249,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2249,
+      "theoretical_max": 3.55,
+      "ratio": 0.6267,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0355",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0108",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0032",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7050,
+      "task_id": 1,
+      "total_dense_reward": 1.9188,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2188,
+      "theoretical_max": 3.55,
+      "ratio": 0.625,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0159",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0372",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0288",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 270,
+      "task_id": 1,
+      "total_dense_reward": 1.9137,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2137,
+      "theoretical_max": 3.55,
+      "ratio": 0.6236,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0342",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0200",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0077",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 3723,
+      "task_id": 1,
+      "total_dense_reward": 1.9364,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2364,
+      "theoretical_max": 3.55,
+      "ratio": 0.63,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0386",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0202",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0216",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 2403,
+      "task_id": 1,
+      "total_dense_reward": 1.8711,
+      "terminal_reward": 0.3,
+      "total_reward": 2.1711,
+      "theoretical_max": 3.55,
+      "ratio": 0.6116,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0199",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_001",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0004",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 5846,
+      "task_id": 1,
+      "total_dense_reward": 1.8563,
+      "terminal_reward": 0.3,
+      "total_reward": 2.1563,
+      "theoretical_max": 3.55,
+      "ratio": 0.6074,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0261",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0236",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0267",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4004,
+      "task_id": 1,
+      "total_dense_reward": 1.9083,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2083,
+      "theoretical_max": 3.55,
+      "ratio": 0.6221,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0355",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0384",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0350",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7368,
+      "task_id": 1,
+      "total_dense_reward": 1.9338,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2338,
+      "theoretical_max": 3.55,
+      "ratio": 0.6292,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0090",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0031",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 308,
+      "task_id": 1,
+      "total_dense_reward": 1.919,
+      "terminal_reward": 0.3,
+      "total_reward": 2.219,
+      "theoretical_max": 3.55,
+      "ratio": 0.6251,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0117",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_041",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0289",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 8081,
+      "task_id": 1,
+      "total_dense_reward": 1.8666,
+      "terminal_reward": 0.3,
+      "total_reward": 2.1666,
+      "theoretical_max": 3.55,
+      "ratio": 0.6103,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0208",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0110",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0408",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 507,
+      "task_id": 1,
+      "total_dense_reward": 1.9301,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2301,
+      "theoretical_max": 3.55,
+      "ratio": 0.6282,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0084",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_041",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0370",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 3072,
+      "task_id": 1,
+      "total_dense_reward": 1.8949,
+      "terminal_reward": 0.3,
+      "total_reward": 2.1949,
+      "theoretical_max": 3.55,
+      "ratio": 0.6183,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0084",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_001",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0241",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 2276,
+      "task_id": 1,
+      "total_dense_reward": 1.8776,
+      "terminal_reward": 0.3,
+      "total_reward": 2.1776,
+      "theoretical_max": 3.55,
+      "ratio": 0.6134,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0062",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0372",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0229",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 8585,
+      "task_id": 1,
+      "total_dense_reward": 1.8838,
+      "terminal_reward": 0.3,
+      "total_reward": 2.1838,
+      "theoretical_max": 3.55,
+      "ratio": 0.6152,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0105",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0035",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_028",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7811,
+      "task_id": 1,
+      "total_dense_reward": 1.8321,
+      "terminal_reward": 0.3,
+      "total_reward": 2.1321,
+      "theoretical_max": 3.55,
+      "ratio": 0.6006,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0333",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0012",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0370",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 9192,
+      "task_id": 1,
+      "total_dense_reward": 1.9099,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2099,
+      "theoretical_max": 3.55,
+      "ratio": 0.6225,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0035",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0213",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0205",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 2673,
+      "task_id": 1,
+      "total_dense_reward": 1.9299,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2299,
+      "theoretical_max": 3.55,
+      "ratio": 0.6281,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0221",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0110",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0338",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 7434,
+      "task_id": 1,
+      "total_dense_reward": 1.9,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2,
+      "theoretical_max": 3.55,
+      "ratio": 0.6197,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0062",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0104",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0306",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 9953,
+      "task_id": 1,
+      "total_dense_reward": 1.8488,
+      "terminal_reward": 0.3,
+      "total_reward": 2.1488,
+      "theoretical_max": 3.55,
+      "ratio": 0.6053,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0362",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0255",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0138",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4669,
+      "task_id": 1,
+      "total_dense_reward": 1.9193,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2193,
+      "theoretical_max": 3.55,
+      "ratio": 0.6252,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0342",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0145",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_008",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 31,
+      "task_id": 1,
+      "total_dense_reward": 1.9361,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2361,
+      "theoretical_max": 3.55,
+      "ratio": 0.6299,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0404",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0145",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0304",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4583,
+      "task_id": 1,
+      "total_dense_reward": 1.9205,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2205,
+      "theoretical_max": 3.55,
+      "ratio": 0.6255,
+      "verified": true,
+      "basket": [
+        [
+          "IND_010",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0149",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0010",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 477,
+      "task_id": 1,
+      "total_dense_reward": 1.8798,
+      "terminal_reward": 0.3,
+      "total_reward": 2.1798,
+      "theoretical_max": 3.55,
+      "ratio": 0.614,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0084",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0110",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0077",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 3044,
+      "task_id": 1,
+      "total_dense_reward": 1.9681,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2681,
+      "theoretical_max": 3.55,
+      "ratio": 0.6389,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0389",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0145",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0074",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 5464,
+      "task_id": 1,
+      "total_dense_reward": 1.8742,
+      "terminal_reward": 0.3,
+      "total_reward": 2.1742,
+      "theoretical_max": 3.55,
+      "ratio": 0.6125,
+      "verified": true,
+      "basket": [
+        [
+          "IND_014",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0203",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_043",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4538,
+      "task_id": 1,
+      "total_dense_reward": 1.8818,
+      "terminal_reward": 0.3,
+      "total_reward": 2.1818,
+      "theoretical_max": 3.55,
+      "ratio": 0.6146,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0178",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0287",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0077",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 4944,
+      "task_id": 1,
+      "total_dense_reward": 1.9476,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2476,
+      "theoretical_max": 3.55,
+      "ratio": 0.6331,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0132",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0003",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0097",
+          "m0_adult_healthy"
+        ]
+      ]
+    },
+    {
+      "seed": 2380,
+      "task_id": 1,
+      "total_dense_reward": 1.9614,
+      "terminal_reward": 0.3,
+      "total_reward": 2.2614,
+      "theoretical_max": 3.55,
+      "ratio": 0.637,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0384",
+          "m0_adult_healthy"
+        ],
+        [
+          "IND_037",
+          "m0_adult_healthy"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_healthy"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4220 @@
+{
+  "task_id": 3,
+  "n_verified": 100,
+  "n_inspected": 100,
+  "verified_seeds": [
+    9770,
+    3631,
+    7059,
+    421,
+    9878,
+    7213,
+    7847,
+    9353,
+    6686,
+    5617,
+    4179,
+    5546,
+    4963,
+    9111,
+    4775,
+    2151,
+    7050,
+    270,
+    4547,
+    7812,
+    3723,
+    7022,
+    2403,
+    5846,
+    4004,
+    7368,
+    308,
+    8081,
+    507,
+    3072,
+    2276,
+    8585,
+    7811,
+    3176,
+    5732,
+    9192,
+    2673,
+    6926,
+    7434,
+    9953,
+    4669,
+    1675,
+    31,
+    4583,
+    477,
+    3044,
+    5464,
+    4538,
+    899,
+    4944,
+    2380,
+    4550,
+    1742,
+    4092,
+    3090,
+    1326,
+    2595,
+    1728,
+    2189,
+    7860,
+    7592,
+    9452,
+    4687,
+    9348,
+    4129,
+    8044,
+    6666,
+    1583,
+    4514,
+    2373,
+    3645,
+    6074,
+    8199,
+    369,
+    7360,
+    9687,
+    7760,
+    6258,
+    1416,
+    8936,
+    4302,
+    2631,
+    5239,
+    9651,
+    4019,
+    1661,
+    3804,
+    8560,
+    5311,
+    4452,
+    1194,
+    2385,
+    7937,
+    8859,
+    7976,
+    6488,
+    8748,
+    1148,
+    8446,
+    8362
+  ],
+  "training_seeds": [
+    5846,
+    7976,
+    2276,
+    369,
+    7368,
+    4538,
+    8585,
+    3044,
+    7812,
+    8560,
+    31,
+    4514,
+    6488,
+    7022,
+    9353,
+    1583,
+    5464,
+    5239,
+    5546,
+    7847,
+    1675,
+    3804,
+    5311,
+    3645,
+    4547,
+    1416,
+    6074,
+    7860,
+    4583,
+    9452,
+    2403,
+    4775,
+    9192,
+    8859,
+    2595,
+    507,
+    8446,
+    3090,
+    8081,
+    4452,
+    3631,
+    2373,
+    7360,
+    7059,
+    1661,
+    4669,
+    9111,
+    9687,
+    3072,
+    5732,
+    7937,
+    9770,
+    6258,
+    1326,
+    4944,
+    421,
+    4687,
+    4963,
+    308,
+    899,
+    9651,
+    7592,
+    1728,
+    9348,
+    2151,
+    7811,
+    6686,
+    1148,
+    8199,
+    270
+  ],
+  "held_out_seeds": [
+    4092,
+    6926,
+    8044,
+    4550,
+    9878,
+    3723,
+    7434,
+    5617,
+    4179,
+    2631,
+    477,
+    2673,
+    4019,
+    2380,
+    8748,
+    1194,
+    6666,
+    7050,
+    4302,
+    3176,
+    4004,
+    1742,
+    2385,
+    8362,
+    4129,
+    7213,
+    2189,
+    7760,
+    9953,
+    8936
+  ],
+  "theoretical_max": 6.95,
+  "tier": {
+    "n_members": 3,
+    "max_steps": 7,
+    "catalog_size": 492,
+    "base_budget_inr": 1500.0
+  },
+  "details": [
+    {
+      "seed": 9770,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 3631,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 7059,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 421,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 9878,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 7213,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 7847,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 9353,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 6686,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 5617,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4179,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 5546,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4963,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 9111,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4775,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 2151,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 7050,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 270,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4547,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 7812,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 3723,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 7022,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 2403,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 5846,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4004,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 7368,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 308,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 8081,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 507,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 3072,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 2276,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 8585,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 7811,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 3176,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 5732,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 9192,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 2673,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 6926,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 7434,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 9953,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4669,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 1675,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 31,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4583,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 477,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 3044,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 5464,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4538,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 899,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4944,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 2380,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4550,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 1742,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4092,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 3090,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 1326,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 2595,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 1728,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 2189,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 7860,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 7592,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 9452,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4687,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 9348,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4129,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 8044,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 6666,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 1583,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4514,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 2373,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 3645,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 6074,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 8199,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 369,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 7360,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 9687,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 7760,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 6258,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 1416,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 8936,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4302,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 2631,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 5239,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 9651,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4019,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 1661,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 3804,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 8560,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 5311,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 4452,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 1194,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 2385,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 7937,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 8859,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 7976,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 6488,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 8748,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 1148,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 8446,
+      "task_id": 3,
+      "total_dense_reward": 4.542,
+      "terminal_reward": 0.3,
+      "total_reward": 4.842,
+      "theoretical_max": 6.95,
+      "ratio": 0.6967,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    },
+    {
+      "seed": 8362,
+      "task_id": 3,
+      "total_dense_reward": 4.642,
+      "terminal_reward": 0.3,
+      "total_reward": 4.942,
+      "theoretical_max": 6.95,
+      "ratio": 0.7111,
+      "verified": true,
+      "basket": [
+        [
+          "SYN_0262",
+          "m0_adult_diabetic"
+        ],
+        [
+          "SYN_0116",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "ADV_017",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0025",
+          "m0_adult_diabetic"
+        ],
+        [
+          "IND_006",
+          "m0_senior_hypertensive"
+        ],
+        [
+          "SYN_0310",
+          "m0_child_growing"
+        ],
+        [
+          "SYN_0248",
+          "m0_adult_diabetic"
+        ]
+      ]
+    }
+  ]
+}

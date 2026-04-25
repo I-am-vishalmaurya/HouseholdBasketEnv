@@ -1,0 +1,92 @@
+{
+  "AlwaysBuyRice": [
+    {
+      "task_id": 3,
+      "seed": 42,
+      "total_reward": -3.37,
+      "expected_bound": "<1.0",
+      "passed": true
+    }
+  ],
+  "AlwaysCheapestItem": [
+    {
+      "task_id": 3,
+      "seed": 7,
+      "total_reward": -3.381,
+      "expected_bound": "<1.5",
+      "passed": true
+    }
+  ],
+  "AlwaysSameCategory": [
+    {
+      "task_id": 3,
+      "seed": 11,
+      "total_reward": -3.4876,
+      "expected_bound": "<2.0",
+      "passed": true
+    }
+  ],
+  "MinCostIgnoreHealth": [
+    {
+      "task_id": 3,
+      "seed": 13,
+      "total_reward": -3.381,
+      "expected_bound": "<1.0",
+      "passed": true
+    }
+  ],
+  "RandomValidJSON": [
+    {
+      "task_id": 2,
+      "seed": -1,
+      "total_reward": 1.0,
+      "expected_bound": "0.0 <= p <= 1.0",
+      "passed": true
+    }
+  ],
+  "OneMemberGetsEverything": [
+    {
+      "task_id": 3,
+      "seed": 29,
+      "total_reward": 1.4393,
+      "expected_bound": "<3.4",
+      "passed": true
+    }
+  ],
+  "BuySameItemNTimes": [
+    {
+      "task_id": 2,
+      "seed": 31,
+      "total_reward": -2.27,
+      "expected_bound": "<1.5",
+      "passed": true
+    }
+  ],
+  "EmptyBasketPolicy": [
+    {
+      "task_id": 2,
+      "seed": 33,
+      "total_reward": 0.0,
+      "expected_bound": "==0.0",
+      "passed": true
+    }
+  ],
+  "AlwaysPickFromAdversarialSet": [
+    {
+      "task_id": 3,
+      "seed": 37,
+      "total_reward": 2.5604,
+      "expected_bound": "<3.0",
+      "passed": true
+    }
+  ],
+  "TerminalOnlyPolicy": [
+    {
+      "task_id": 2,
+      "seed": 41,
+      "total_reward": 0.9787,
+      "expected_bound": "<5.0",
+      "passed": true
+    }
+  ]
+}
