@@ -119,7 +119,12 @@ training + eval notebooks.
 
 ## Training (Google Colab T4)
 
-Three notebooks — open them in Colab in order:
+Three notebooks — open them in Colab in order. On Colab, each notebook's first
+runtime cell **automatically clones**
+`https://github.com/I-am-vishalmaurya/HouseholdBasketEnv` into
+`/content/HouseholdBasketEnv` (no Drive mount, no manual upload). On a local
+machine the same cell auto-detects the package by walking up from the notebook
+directory, so no path edits are needed.
 
 | # | Notebook | Phase | Output |
 |---|----------|-------|--------|
