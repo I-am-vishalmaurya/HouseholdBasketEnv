@@ -18,7 +18,13 @@ from __future__ import annotations
 from typing import Optional
 
 from pydantic import BaseModel, Field
-from openenv.core.env_server.types import Action, Observation, State
+
+try:
+    from openenv.core.env_server.types import Action, Observation, State
+except ImportError:
+    Action = BaseModel
+    Observation = BaseModel
+    State = BaseModel
 
 
 class HouseholdMember(BaseModel):

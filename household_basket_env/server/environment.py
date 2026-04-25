@@ -26,7 +26,13 @@ import random
 from typing import Any, Optional
 from uuid import uuid4
 
-from openenv.core.env_server.interfaces import Environment
+try:
+    from openenv.core.env_server.interfaces import Environment
+except ImportError:
+    class Environment:
+        """Stub when openenv-core is not installed (notebook / standalone usage)."""
+        pass
+
 from pydantic import ValidationError
 
 from ..models import (

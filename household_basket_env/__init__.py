@@ -11,7 +11,6 @@ simultaneously satisfies the conflicting nutritional constraints of multiple
 household members under a hard INR budget. Theme #3.2 (Personalized Tasks).
 """
 
-from .client import HouseholdBasketEnv
 from .models import (
     BasketAction,
     BasketObservation,
@@ -21,6 +20,11 @@ from .models import (
     ProductSummary,
     TaggedItem,
 )
+
+try:
+    from .client import HouseholdBasketEnv
+except ImportError:
+    HouseholdBasketEnv = None  # type: ignore[assignment,misc]
 
 __all__ = [
     "HouseholdBasketEnv",
