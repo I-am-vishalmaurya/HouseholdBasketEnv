@@ -171,15 +171,23 @@ class BasketObservation(Observation):
             "attempt_cap or over_budget: 0.0 (grader skipped)."
         ),
     )
+    reward: Optional[float] = Field(
+        default=None,
+        description="Dense reward for the most recent step (sum of all reward components).",
+    )
     reward_breakdown: Optional[dict[str, float]] = Field(
         default=None,
         description="Per-component dense reward for the most recent step (debug / training logging).",
     )
+    done: bool = Field(default=False, description="True when the episode has terminated.")
+    metadata: dict = Field(default_factory=dict, description="Extra data (e.g. grader details on terminal).")
 
 
 class BasketState(State):
     """Internal env state. NEVER exposed to the agent."""
 
+    episode_id: str = Field(default="", description="Unique episode identifier.")
+    step_count: int = Field(default=0, description="Total steps (valid + invalid) within the episode.")
     seed: int = Field(default=0)
     task_id: int = Field(default=2, description="1, 2, or 3 (tier)")
     cumulative_spend: float = Field(default=0.0)
