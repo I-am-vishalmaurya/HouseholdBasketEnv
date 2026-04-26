@@ -15,6 +15,7 @@ Custom endpoint:
 """
 
 try:
+    from fastapi.responses import HTMLResponse
     from openenv.core.env_server.http_server import create_app
 except Exception as e:  # pragma: no cover
     raise ImportError(
@@ -77,6 +78,36 @@ TASK_DEFINITIONS = [
         "reset_params": {"task_id": 3},
     },
 ]
+
+
+@app.get("/", response_class=HTMLResponse, include_in_schema=False)
+async def home():
+    return """
+    <!doctype html>
+    <html>
+      <head>
+        <title>HouseholdBasketEnv</title>
+        <style>
+          body { font-family: system-ui, sans-serif; margin: 2rem; max-width: 760px; line-height: 1.5; }
+          code { background: #f3f4f6; padding: 0.15rem 0.3rem; border-radius: 4px; }
+          a { color: #2563eb; }
+        </style>
+      </head>
+      <body>
+        <h1>HouseholdBasketEnv</h1>
+        <p>
+          An OpenEnv environment for multi-member grocery basket planning under
+          nutrition, dietary, variety, and budget constraints.
+        </p>
+        <ul>
+          <li><a href="/docs">Interactive API docs</a></li>
+          <li><a href="/health">Health check</a></li>
+          <li><a href="/tasks">Task definitions</a></li>
+        </ul>
+        <p>Core endpoints: <code>POST /reset</code>, <code>POST /step</code>, <code>GET /state</code>.</p>
+      </body>
+    </html>
+    """
 
 
 @app.get("/tasks", tags=["Tasks"])

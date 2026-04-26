@@ -10,66 +10,78 @@ short_description: Multi-member grocery basket planning environment for OpenEnv
 
 # HouseholdBasketEnv
 
-HouseholdBasketEnv is an OpenEnv hackathon environment for personalized grocery
-planning. An agent builds a packaged-food basket for a small Indian household
-while balancing member-specific nutrition caps, minimum intake floors, dietary
-restrictions, meal variety, and a hard INR budget.
+HouseholdBasketEnv is an OpenEnv environment for a simple but surprisingly hard
+question: can an agent build one grocery basket that works for an entire
+household?
 
-The core challenge is not picking one "healthy" item. It is reasoning over a
-coupled basket: products that look acceptable alone can jointly violate sugar,
-sodium, fat, or calorie limits for a specific member.
+The agent selects packaged-food items for a small Indian household while staying
+inside a fixed INR budget. Each choice has to respect member-specific nutrition
+caps, minimum intake floors, dietary restrictions, and meal variety. A product
+that looks healthy in isolation can still be a bad choice once it is combined
+with the rest of the basket.
 
-## Why It Matters
+This is not a grocery chatbot. It is a reproducible environment for testing
+whether an agent can plan across a sequence of choices under real constraints.
 
-Most food-label demos stop at single-item classification. Real grocery planning
-is multi-person and cumulative: a diabetic adult, a hypertensive senior, and a
-child do not need the same basket. HouseholdBasketEnv turns that into a
-repeatable RL-style benchmark with deterministic seeds, dense rewards, terminal
-grading, and adversarial products.
+## Links
 
-## Hackathon Readiness
+- [Project blog](BLOG.md)
+- [Evaluation results](results/)
+- [Training run artifacts](household_basket_env/notebooks/runs/)
+- [Hugging Face Space](https://huggingface.co/spaces/5h4dy/household-basket-env)
 
-Current status: **environment on track, full RL demo still at risk until proof is
-committed**.
+## What the Environment Tests
 
-What is already solid:
+HouseholdBasketEnv turns personalized grocery planning into a step-by-step RL
+task:
 
-- Step-by-step environment with objective verification.
-- OpenEnv/FastAPI package, manifest, Dockerfile, and client.
-- Curriculum tiers that avoid starting with a zero-reward hard task.
-- Multiple reward components instead of one fragile scalar.
-- Reward-hack tests for obvious degenerate policies.
-- Local test suite: `58 passed`.
+- The household profile defines the personalization target.
+- The product catalog includes prices, nutrition labels, meal types, and
+  adversarial items.
+- The agent chooses one product and one household member at each step.
+- Dense rewards give feedback during the episode.
+- A terminal grader checks whether the final basket actually works.
 
-What still needs proof before judging:
+The hardest task includes a diabetic adult, a hypertensive senior, and a child.
+The same basket has to satisfy all three, not just optimize for an average user.
 
-- Baseline-vs-trained evaluation results under `docs/results/`.
-- Evidence that GRPO/Unsloth training completed and improved behavior.
-- Deployed Hugging Face Space URL with `/health`, `/tasks`, `/reset`, and
-  `/step` smoke-test output.
-- A scripted demo showing baseline attempt, reward breakdown, trained attempt,
-  and measurable improvement.
-- Model save/export validation for the LoRA/QLoRA adapter path.
+## Results
 
-See `HACKATHON_GUIDELINES_REPORT.md` for the guideline-by-guideline review and
-`docs/superpowers/plans/2026-04-26-hackathon-gap-closure.md` for the execution
-plan.
+Evaluation artifacts are in `results/`.
 
-## What Judges Should Inspect
+| Run | Eval episodes | Mean of task mean rewards | Parse failure rate | Terminal success or partial rate | Result file |
+| --- | ---: | ---: | ---: | ---: | --- |
+| Prompted baseline | 90 | `-1.4995` | `65.56%` | `22.22%` | [`baseline.json`](results/baseline.json) |
+| GRPO main | 15 | `-1.8876` | `0.00%` | `0.00%` | [`eval_main.json`](results/eval_main.json) |
+| Ablation A | 15 | `-1.4911` | `0.00%` | `0.00%` | [`eval_ablation_a.json`](results/eval_ablation_a.json) |
+| Ablation B | 15 | `-1.6529` | `0.00%` | `0.00%` | [`eval_ablation_b.json`](results/eval_ablation_b.json) |
 
-- `household_basket_env/openenv.yaml` defines the OpenEnv manifest and task
-  tiers.
-- `household_basket_env/server/environment.py` implements the episode lifecycle
-  and action validation pipeline.
-- `household_basket_env/server/basket_grader.py` performs terminal basket-level
-  grading.
-- `household_basket_env/server/rewards.py` contains dense reward shaping.
-- `household_basket_env/tests/` covers the environment contract, rewards,
-  grader behavior, seed verifier, and reward-hack policies.
-- `BLOG.md` gives the judge-facing product narrative.
-- `HACKATHON_GUIDELINES_REPORT.md` shows where the project is on/off track
-  against the hackathon guide.
-- `docs/plan_for_finale.md` contains the full design rationale.
+Task 3 is the hardest household: diabetic adult, hypertensive senior, and child.
+On Task 3, the prompted baseline scored `-3.3827` mean reward across 30 seeds;
+the GRPO main run scored `-3.0713` across 5 seeds; Ablation A scored `-2.9791`;
+Ablation B scored `-2.8262`. None of the available runs reached a positive
+terminal outcome on Task 3.
+
+Available artifacts:
+
+- `results/baseline.json`
+- `results/eval_main.json`
+- `results/eval_ablation_a.json`
+- `results/eval_ablation_b.json`
+- `results/curves_main.png`
+- `results/curves_ablation_a.png`
+- `results/curves_ablation_b.png`
+- `results/qualitative_main.json`
+- `results/qualitative_ablation_a.json`
+- `results/qualitative_ablation_b.json`
+
+Training run artifacts:
+
+| Run | Training mix | Final train reward | Adapter / log |
+| --- | --- | ---: | --- |
+| GRPO main | 70% Task 2, 30% Task 3 | `-0.2500` | [`runs/main`](household_basket_env/notebooks/runs/main/) |
+| Ablation A | Main mix, meal-type coverage disabled | `-0.2500` | [`runs/ablation_a`](household_basket_env/notebooks/runs/ablation_a/) |
+| Ablation B | 100% Task 3 | `-0.2500` | [`runs/ablation_b`](household_basket_env/notebooks/runs/ablation_b/) |
 
 ## Quickstart
 
@@ -80,8 +92,8 @@ export HOUSEHOLD_BASKET_PRODUCTS_PATH="$PWD/data/products.json"
 uv run uvicorn household_basket_env.server.app:app --reload --port 8000
 ```
 
-Open `http://localhost:8000/docs` for the FastAPI surface. The health endpoint
-is `/health`; task definitions are exposed at `/tasks`.
+Open `http://localhost:8000/docs` for the API docs. The health endpoint is
+`/health`; task definitions are exposed at `/tasks`.
 
 ## Run Tests
 
@@ -93,37 +105,3 @@ HOUSEHOLD_BASKET_PRODUCTS_PATH="$PWD/data/products.json" \
 
 Expected result: `58 passed`.
 
-## Project Layout
-
-```text
-.
-├── BLOG.md
-├── README.md
-├── docs/
-│   ├── plan_for_finale.md
-│   └── results/
-└── household_basket_env/
-    ├── client.py
-    ├── models.py
-    ├── openenv.yaml
-    ├── Dockerfile
-    ├── data/products.json
-    ├── notebooks/
-    ├── scripts/push_to_hf.sh
-    ├── seeds/
-    ├── server/
-    └── tests/
-```
-
-## Demo Path
-
-1. Start the API server.
-2. Reset Task 3 with a fixed seed.
-3. Show the household constraints and candidate products.
-4. Run a baseline or prompted action sequence.
-5. Show dense reward components and terminal grading.
-6. Run the trained model sequence once training artifacts are available.
-7. Compare baseline vs trained reward and terminal outcome.
-
-That path demonstrates the actual contribution: personalized, cumulative
-constraint satisfaction under budget, not a thin grocery chatbot.
