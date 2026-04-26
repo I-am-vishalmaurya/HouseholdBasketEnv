@@ -1,0 +1,21 @@
+{
+  "RUN_NAME": "main",
+  "MODEL_NAME": "Qwen/Qwen2.5-3B-Instruct",
+  "TIER_WEIGHTS": {
+    "2": 0.7,
+    "3": 0.3
+  },
+  "ENABLE_MEAL_TYPE_COVERAGE": true,
+  "MAX_TRAIN_STEPS": 40,
+  "PER_DEVICE_BATCH": 1,
+  "GRAD_ACCUM": 8,
+  "NUM_GENERATIONS": 8,
+  "GRPO_BETA": 0.04,
+  "LEARNING_RATE": 5e-06,
+  "TEMPERATURE": 1.0,
+  "MAX_NEW_TOKENS": 96,
+  "LORA_R": 32,
+  "LORA_ALPHA": 64,
+  "LORA_DROPOUT": 0.05,
+  "LOAD_IN_4BIT": true
+}

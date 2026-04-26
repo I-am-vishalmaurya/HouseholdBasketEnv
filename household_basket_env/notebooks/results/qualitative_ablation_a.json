@@ -1,0 +1,698 @@
+[
+  {
+    "seed": 6926,
+    "task_id": 3,
+    "total_reward": -3.69,
+    "parse_fails": 0,
+    "step_index": 1,
+    "attempt_index": 14,
+    "terminal_reward": 0.0,
+    "basket_size": 1,
+    "transcript": [
+      {
+        "step": 0,
+        "raw": "{\n  \"product_id\": \"SYN_0087\",\n  \"member_id\": \"m0_adult_diabetic\",\n  \"rationale\": \"Selected low-sodium drink for diabetic adult to manage sugar intake.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0087",
+          "member_id": "m0_adult_diabetic",
+          "rationale": "Selected low-sodium drink for diabetic adult to manage sugar intake."
+        },
+        "reward": 0.21000000000000002,
+        "breakdown": {
+          "r_format": 0.2,
+          "r_threshold": -0.24,
+          "r_budget": 0.1,
+          "r_meal_type_coverage": 0.15,
+          "p_duplicate": 0.0,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": 0.21000000000000002
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0087\",\n  \"member_id\": \"m0_adult_diabetic\",\n  \"rationale\": \"Reduces sugar intake suitable for diabetic adult.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0087",
+          "member_id": "m0_adult_diabetic",
+          "rationale": "Reduces sugar intake suitable for diabetic adult."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0087\",\n  \"member_id\": \"m0_adult_diabetic\",\n  \"rationale\": \"Reduces sugar intake suitable for diabetic adult.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0087",
+          "member_id": "m0_adult_diabetic",
+          "rationale": "Reduces sugar intake suitable for diabetic adult."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0087\",\n  \"member_id\": \"m0_adult_diabetic\",\n  \"rationale\": \"To meet the dietary needs of the adult diabetic while staying within budget constraints.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0087",
+          "member_id": "m0_adult_diabetic",
+          "rationale": "To meet the dietary needs of the adult diabetic while staying within budget constraints."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0087\",\n  \"member_id\": \"m0_adult_diabetic\",\n  \"rationale\": \"To meet the adult diabetic's sugar intake limit while providing a beverage.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0087",
+          "member_id": "m0_adult_diabetic",
+          "rationale": "To meet the adult diabetic's sugar intake limit while providing a beverage."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0087\",\n  \"member_id\": \"m0_adult_diabetic\",\n  \"rationale\": \"To meet the adult diabetic's sugar restriction while providing a beverage.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0087",
+          "member_id": "m0_adult_diabetic",
+          "rationale": "To meet the adult diabetic's sugar restriction while providing a beverage."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0087\",\n  \"member_id\": \"m0_adult_diabetic\",\n  \"rationale\": \"Reduces sugar intake suitable for diabetic adult.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0087",
+          "member_id": "m0_adult_diabetic",
+          "rationale": "Reduces sugar intake suitable for diabetic adult."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0087\",\n  \"member_id\": \"m0_adult_diabetic\",\n  \"rationale\": \"This beverage is low in sugar and sodium, suitable for the adult diabetic member.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0087",
+          "member_id": "m0_adult_diabetic",
+          "rationale": "This beverage is low in sugar and sodium, suitable for the adult diabetic member."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0087\",\n  \"member_id\": \"m0_adult_diabetic\",\n  \"rationale\": \"To meet the dietary needs of the adult diabetic while staying within budget and under nutritional limits.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0087",
+          "member_id": "m0_adult_diabetic",
+          "rationale": "To meet the dietary needs of the adult diabetic while staying within budget and under nutritional limits."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0087\",\n  \"member_id\": \"m0_adult_diabetic\",\n  \"rationale\": \"To meet the dietary needs of the adult diabetic while staying within the sugar limit.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0087",
+          "member_id": "m0_adult_diabetic",
+          "rationale": "To meet the dietary needs of the adult diabetic while staying within the sugar limit."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0087\",\n  \"member_id\": \"m0_adult_diabetic\",\n  \"rationale\": \"Reduces sodium intake for the diabetic adult.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0087",
+          "member_id": "m0_adult_diabetic",
+          "rationale": "Reduces sodium intake for the diabetic adult."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0087\",\n  \"member_id\": \"m0_adult_diabetic\",\n  \"rationale\": \"To meet the dietary needs of the adult diabetic while staying within budget constraints.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0087",
+          "member_id": "m0_adult_diabetic",
+          "rationale": "To meet the dietary needs of the adult diabetic while staying within budget constraints."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0087\",\n  \"member_id\": \"m0_adult_diabetic\",\n  \"rationale\": \"Reduces sodium intake suitable for diabetic adult.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0087",
+          "member_id": "m0_adult_diabetic",
+          "rationale": "Reduces sodium intake suitable for diabetic adult."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0087\",\n  \"member_id\": \"m0_adult_diabetic\",\n  \"rationale\": \"To meet the adult diabetic's sugar intake limit while providing a beverage.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0087",
+          "member_id": "m0_adult_diabetic",
+          "rationale": "To meet the adult diabetic's sugar intake limit while providing a beverage."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "seed": 6926,
+    "task_id": 2,
+    "total_reward": -2.17,
+    "parse_fails": 0,
+    "step_index": 1,
+    "attempt_index": 10,
+    "terminal_reward": 0.0,
+    "basket_size": 1,
+    "transcript": [
+      {
+        "step": 0,
+        "raw": "{\n  \"product_id\": \"SYN_0398\",\n  \"member_id\": \"m0_adult_healthy\",\n  \"rationale\": \"Balanced dairy option suitable for healthy adult with no specific dietary restrictions.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0398",
+          "member_id": "m0_adult_healthy",
+          "rationale": "Balanced dairy option suitable for healthy adult with no specific dietary restrictions."
+        },
+        "reward": 0.53,
+        "breakdown": {
+          "r_format": 0.2,
+          "r_threshold": 0.08,
+          "r_budget": 0.1,
+          "r_meal_type_coverage": 0.15,
+          "p_duplicate": 0.0,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": 0.53
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0398\",\n  \"member_id\": \"m0_adult_healthy\",\n  \"rationale\": \"Meets sugar and sodium limits for adult healthy, spreads out meal types.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0398",
+          "member_id": "m0_adult_healthy",
+          "rationale": "Meets sugar and sodium limits for adult healthy, spreads out meal types."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0398\",\n  \"member_id\": \"m0_adult_healthy\",\n  \"rationale\": \"Meets dietary requirements for the adult healthy member and spreads meal types.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0398",
+          "member_id": "m0_adult_healthy",
+          "rationale": "Meets dietary requirements for the adult healthy member and spreads meal types."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0398\",\n  \"member_id\": \"m0_adult_healthy\",\n  \"rationale\": \"Meets sugar and sodium limits for adult healthy, spreads out meal types.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0398",
+          "member_id": "m0_adult_healthy",
+          "rationale": "Meets sugar and sodium limits for adult healthy, spreads out meal types."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0398\",\n  \"member_id\": \"m0_adult_healthy\",\n  \"rationale\": \"Meets the sugar and sodium limits for the adult healthy member while staying within budget.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0398",
+          "member_id": "m0_adult_healthy",
+          "rationale": "Meets the sugar and sodium limits for the adult healthy member while staying within budget."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0398\",\n  \"member_id\": \"m0_adult_healthy\",\n  \"rationale\": \"Meets sugar and sodium limits for the adult healthy member while staying within budget.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0398",
+          "member_id": "m0_adult_healthy",
+          "rationale": "Meets sugar and sodium limits for the adult healthy member while staying within budget."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0398\",\n  \"member_id\": \"m0_adult_healthy\",\n  \"rationale\": \"Meets dietary requirements for the adult healthy member and spreads meal types.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0398",
+          "member_id": "m0_adult_healthy",
+          "rationale": "Meets dietary requirements for the adult healthy member and spreads meal types."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0398\",\n  \"member_id\": \"m0_adult_healthy\",\n  \"rationale\": \"Meets sugar and sodium limits for adult healthy, spreads out meal types.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0398",
+          "member_id": "m0_adult_healthy",
+          "rationale": "Meets sugar and sodium limits for adult healthy, spreads out meal types."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0398\",\n  \"member_id\": \"m0_adult_healthy\",\n  \"rationale\": \"Meets sugar and sodium limits for adult healthy, spreads out meal types.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0398",
+          "member_id": "m0_adult_healthy",
+          "rationale": "Meets sugar and sodium limits for adult healthy, spreads out meal types."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0398\",\n  \"member_id\": \"m0_adult_healthy\",\n  \"rationale\": \"Meets the sugar and sodium limits for the adult healthy member while staying within budget.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0398",
+          "member_id": "m0_adult_healthy",
+          "rationale": "Meets the sugar and sodium limits for the adult healthy member while staying within budget."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "seed": 3631,
+    "task_id": 1,
+    "total_reward": -0.932,
+    "parse_fails": 0,
+    "step_index": 1,
+    "attempt_index": 6,
+    "terminal_reward": 0.0,
+    "basket_size": 1,
+    "transcript": [
+      {
+        "step": 0,
+        "raw": "{\n  \"product_id\": \"SYN_0234\",\n  \"member_id\": \"m0_adult_healthy\",\n  \"rationale\": \"Provides a low-sugar beverage option suitable for the adult's dietary restrictions.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0234",
+          "member_id": "m0_adult_healthy",
+          "rationale": "Provides a low-sugar beverage option suitable for the adult's dietary restrictions."
+        },
+        "reward": 0.5680000000000001,
+        "breakdown": {
+          "r_format": 0.2,
+          "r_threshold": 0.118,
+          "r_budget": 0.1,
+          "r_meal_type_coverage": 0.15,
+          "p_duplicate": 0.0,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": 0.5680000000000001
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0234\",\n  \"member_id\": \"m0_adult_healthy\",\n  \"rationale\": \"Provides a balanced beverage option suitable for an adult with healthy dietary needs.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0234",
+          "member_id": "m0_adult_healthy",
+          "rationale": "Provides a balanced beverage option suitable for an adult with healthy dietary needs."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0234\",\n  \"member_id\": \"m0_adult_healthy\",\n  \"rationale\": \"Provides a balanced beverage option suitable for an adult with healthy dietary needs.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0234",
+          "member_id": "m0_adult_healthy",
+          "rationale": "Provides a balanced beverage option suitable for an adult with healthy dietary needs."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0234\",\n  \"member_id\": \"m0_adult_healthy\",\n  \"rationale\": \"Provides a balanced beverage option suitable for the adult member within budget constraints.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0234",
+          "member_id": "m0_adult_healthy",
+          "rationale": "Provides a balanced beverage option suitable for the adult member within budget constraints."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0234\",\n  \"member_id\": \"m0_adult_healthy\",\n  \"rationale\": \"Provides a balanced beverage option suitable for the adult member within budget constraints.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0234",
+          "member_id": "m0_adult_healthy",
+          "rationale": "Provides a balanced beverage option suitable for the adult member within budget constraints."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      },
+      {
+        "step": 1,
+        "raw": "{\n  \"product_id\": \"SYN_0234\",\n  \"member_id\": \"m0_adult_healthy\",\n  \"rationale\": \"Provides a balanced beverage option suitable for an adult with healthy dietary needs.\"\n}",
+        "parsed": {
+          "product_id": "SYN_0234",
+          "member_id": "m0_adult_healthy",
+          "rationale": "Provides a balanced beverage option suitable for an adult with healthy dietary needs."
+        },
+        "reward": -0.3,
+        "breakdown": {
+          "r_format": 0.0,
+          "r_threshold": 0.0,
+          "r_budget": 0.0,
+          "r_meal_type_coverage": 0.0,
+          "p_duplicate": -0.3,
+          "p_unknown_member": 0.0,
+          "p_parse": 0.0,
+          "p_over_budget": 0.0,
+          "terminal": 0.0,
+          "total": -0.3
+        }
+      }
+    ]
+  }
+]
