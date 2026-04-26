@@ -12,7 +12,7 @@ description: >
   test suite. Theme #3.2 (Personalized Tasks).
 type: space
 runtime: fastapi
-app: server.app:app
+app: household_basket_env.server.app:app
 port: 8000
 
 client:
