@@ -36,10 +36,10 @@ echo "[info] building image ..."
 docker build -t "household_basket_env:${IMAGE_TAG}" .
 
 echo "[info] verifying image runs locally ..."
-container_id=$(docker run -d --rm -p 7860:7860 "household_basket_env:${IMAGE_TAG}")
+container_id=$(docker run -d --rm -p 8000:8000 "household_basket_env:${IMAGE_TAG}")
 trap 'docker stop "${container_id}" >/dev/null 2>&1 || true' EXIT
 sleep 4
-if ! curl -fs http://localhost:7860/health >/dev/null; then
+if ! curl -fs http://localhost:8000/health >/dev/null; then
   echo "[error] health check failed" >&2
   exit 1
 fi
