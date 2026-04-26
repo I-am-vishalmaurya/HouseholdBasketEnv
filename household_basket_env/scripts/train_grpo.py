@@ -188,9 +188,11 @@ MODEL_NAME = _env_str("MODEL_NAME", "Qwen/Qwen2.5-0.5B-Instruct")
 # Run schedule (very tight; tuned for ~30 min total wall clock).
 MAIN_STEPS = _env_int("MAIN_STEPS", 15)
 ABLATION_STEPS = _env_int("ABLATION_STEPS", 8)
+# GRPO requires (per_device_batch * world_size * grad_accum) % num_generations == 0.
+# Defaults: 1 * 1 * 4 = 4, divisible by 4 ✓
 NUM_GENERATIONS = _env_int("NUM_GENERATIONS", 4)  # GRPO group size per prompt
 PER_DEVICE_BATCH = _env_int("PER_DEVICE_BATCH", 1)
-GRAD_ACCUM = _env_int("GRAD_ACCUM", 2)
+GRAD_ACCUM = _env_int("GRAD_ACCUM", 4)
 MAX_NEW_TOKENS = _env_int("MAX_NEW_TOKENS", 64)
 MAX_PROMPT_TOKENS = _env_int("MAX_PROMPT_TOKENS", 1024)
 LEARNING_RATE = float(_env_str("LEARNING_RATE", "5e-6"))
@@ -459,6 +461,26 @@ def train_one(run_name: str) -> Path:
     log.info("==== Starting run %s -> %s ====", run_name, run_dir)
     log.info("Run config: %s", cfg)
 
+    # GRPO divisibility guard: TRL requires
+    #   (per_device_batch * world_size * grad_accum) % num_generations == 0
+    # Auto-bump grad_accum if the current settings are invalid.
+    world_size = max(1, torch.cuda.device_count() if torch.cuda.is_available() else 1)
+    effective = PER_DEVICE_BATCH * world_size * GRAD_ACCUM
+    if effective % NUM_GENERATIONS != 0:
+        bumped = (effective // NUM_GENERATIONS + 1) * NUM_GENERATIONS
+        new_grad_accum = max(1, bumped // (PER_DEVICE_BATCH * world_size))
+        log.warning(
+            "Effective batch %d not divisible by num_generations %d; "
+            "bumping grad_accum %d -> %d",
+            effective,
+            NUM_GENERATIONS,
+            GRAD_ACCUM,
+            new_grad_accum,
+        )
+        grad_accum = new_grad_accum
+    else:
+        grad_accum = GRAD_ACCUM
+
     # Fresh model per run so adapters don't leak across experiments.
     model, tokenizer = load_model_and_tokenizer()
     peft_config = build_peft_config()
@@ -482,7 +504,7 @@ def train_one(run_name: str) -> Path:
         beta=GRPO_BETA,
         num_generations=NUM_GENERATIONS,
         per_device_train_batch_size=PER_DEVICE_BATCH,
-        gradient_accumulation_steps=GRAD_ACCUM,
+        gradient_accumulation_steps=grad_accum,
         max_prompt_length=MAX_PROMPT_TOKENS,
         max_completion_length=MAX_NEW_TOKENS,
         max_steps=cfg["max_steps"],
