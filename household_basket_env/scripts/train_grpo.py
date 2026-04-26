@@ -97,20 +97,32 @@ def bootstrap_deps() -> None:
     TRL 0.11 (old `tokenizer=` kwarg, `processing_class=` not yet introduced) and
     TRL 0.21+ (vLLM + chat-template kwargs). 0.18 is the sweet spot.
     """
+    # NOTE on the pin: TRL 0.18 requires transformers >= 4.49. We use ranges
+    # so pip's resolver can satisfy whatever Kaggle's preinstalled torch was
+    # built against.
     deps = [
-        "transformers==4.46.3",
+        "transformers>=4.49,<4.55",
         "trl==0.18.2",
-        "peft==0.14.0",
-        "accelerate==1.2.1",
-        "bitsandbytes==0.45.0",
-        "datasets==3.2.0",
+        "peft>=0.14,<0.16",
+        "accelerate>=1.2,<2.0",
+        "bitsandbytes>=0.45",
+        "datasets>=3.0,<4.0",
         "pydantic>=2.5,<3",
         "matplotlib>=3.8",
         "numpy>=1.26",
         "sentencepiece",
         "protobuf",
     ]
-    pip_cmd = [sys.executable, "-m", "pip", "install", "-q", "--no-input"] + deps
+    pip_cmd = [
+        sys.executable,
+        "-m",
+        "pip",
+        "install",
+        "-q",
+        "--no-input",
+        "--upgrade-strategy",
+        "only-if-needed",
+    ] + deps
     _run(pip_cmd, check=False)
 
 
